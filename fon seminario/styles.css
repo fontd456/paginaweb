@@ -1,0 +1,152 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.consejos {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  max-width: 600px;
+  width: 100%;
+}
+
+
+.tabla-modelos {
+  margin: 30px auto;
+  max-width: 90%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #444;
+  color: white;
+}
+
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.marca {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.item p {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+.carrito {
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+
+.formulario {
+  background-color: #fff;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+}
+
+
